@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+main{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.content{
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    /*border: 1px solid black;*/
+}
+.shopping{
+    width: 1200px;
+    height: auto;
+}
+.a{
+
+    margin: 40px 0px;
+    font-size: 22px;
+}
+.recommend{
+    margin-top: 100px;
+    width: 1200px;
+    height: auto;
+    /*border: 1px solid red;*/
+}
+.box-tow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 1200px;
+    height: inherit;
+
+}
+
+.list-div{
+    width: 360px;
+    height: 460px;
+    display: inline-block;
+    background-size: contain;
+    position: relative;
+
+}
+.box-tow img:first-of-type{
+    width: 360px;
+    height: 360px;
+    border: 1px solid #CCCCCC;
+}
+hr{
+    margin: 40px 20px;
+    background-color: #CCCCCC;
+    border: none;
+    height: 1px;
+}
+.list-div span{
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    top: 390px;
+    left: 65px;
+
+}
+.list-div b{
+    font-size: 23px;
+    position: absolute;
+    top: 390px;
+    left: 175px;
+}
+
+
+
+
+
+
+
+
+
+table{
+
+    font-size: 20px;
+    border: 1px solid #CCCCCC;
+    width: 1100px;
+    height: auto;
+    margin-left: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+/*thead,tbody input{*/
+    /*zoom: 180%;*/
+/*}*/
+button{
+    cursor: pointer;
+}
+.bottom{
+
+    width: 1100px;
+    height: 50px;
+    background-color: #CCCCCC;
+    /*line-height: 50px;*/
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 15px;
+    position: relative;
+}
+thead tr{
+    height: 50px;
+}
+thead tr td{
+    border-bottom: 1px solid #CCCCCC;
+}
+.bottom input,span,button{
+    display: inline-block;
+    font-size: 15px;
+}
+.bottom input{
+    margin-left: 20px;
+}
+.bottom span:nth-of-type(2){
+    margin-left: 20px;
+}
+.cont{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: red;
+    font-size: 25px;
+}
+.price{
+    margin-left: 10px;
+    color: red;
+    font-size: 25px;
+}
+.bottom b{
+    /*display: flex;*/
+    margin-left:450px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.bottom button{
+    width: 130px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+tbody{
+    margin: 0;
+    padding: 0;
+    color: #838280;
+
+}
+tbody tr{
+    height: 100px;
+    font-size: 20px;
+}
+tbody tr td{
+
+    border-bottom: 1px solid #CCCCCC;
+}
+tbody button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.bottom button:last-of-type{
+    position: absolute;
+    left: 890px;
+}
+
+
+
+
+
+
+
+/**** 商品数量选择 ****/
+.goodsCount {
+    display: inline-block;
+}
+.goodsCount input {
+    width: 64px;
+    padding: 6px;
+    text-align: center;
+}
+.goodsCount button {
+    padding: 0 8px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+.goodsCount button:active {
+    color: #999;
+}
+/* 禁用时的样式 */
+.goodsCount button.disabled {
+    color: #ccc;
+}
+
+
+
+
+
+
+

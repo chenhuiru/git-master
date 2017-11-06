@@ -1,0 +1,198 @@
+@charset "UTF-8";
+main{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.content{
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+}
+
+/*顶部样式*/
+.content-one{
+    width: 1200px;
+    height: 240px;
+    background: url("../img/classifyBanner_1190dpi.jpg");
+    background-size: cover;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.content-one   b{
+    padding-left: 20px;
+    line-height: 240px;
+}
+.box{
+    width: 1200px;
+    height: 50px;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+    font-size: 23px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.box p{
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    background-color: #838280;
+    /*margin-left: 40px;*/
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: lighter;
+
+    /*position: fixed;*/
+
+}
+.box p:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+/*列表样式*/
+.content-two{
+    width: 1200px;
+    height: 120px;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+ul li{
+    list-style: none;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.list-one>li{
+    border: 1px solid transparent;
+    width: 140px;
+    height: 50px;
+    /*border: 1px solid gold;*/
+    text-align: center;
+    line-height: 50px;
+
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 70px;
+    position: relative;
+}
+.list-one>li:hover{
+    /*border-color: #CCCCCC #CCCCCC red #CCCCCC;*/
+    border: 2px solid #CCCCCC;
+}
+.list-one>li:hover li{
+    background-color: white;
+    border-left: 2px solid #CCCCCC;
+    border-right: 2px solid #CCCCCC;
+}
+.list-one>li:hover .list-tow{
+    display: block;
+
+}
+.list-one>li:hover .list-tow li:first-of-type{
+    border-top: 1px solid orange;
+}
+a{
+    /*margin-left: 90px;*/
+    /*margin-top: 70px;*/
+}
+.list-tow{
+    border: 1px solid transparent;
+    position: absolute;
+    top:50px;
+    left: -42px;
+    z-index: 100;
+    display: none;
+    text-align: center;
+}
+.list-tow>li{
+    width: 140px;
+    height: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*图片列表样式*/
+.content-three{
+    width: 1200px;
+    height: 1500px;
+    border-top: 1px solid #CCCCCC;
+    z-index: 1;
+}
+.box-tow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 1200px;
+    height: inherit;
+
+}
+.box-tow .list-div:last-of-type{
+   background:none;
+}
+.list-div{
+    width: 360px;
+    height: 460px;
+    display: inline-block;
+    background: url("../img/example_0(4).jpg") no-repeat;
+    background-size: contain;
+    position: relative;
+
+}
+.list-div:hover{
+    border: 2px solid yellowgreen;
+    background-color: rgba(130,195,83,0.1);
+}
+.list-div span{
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    top: 390px;
+    left: 65px;
+
+}
+.list-div b{
+    font-size: 23px;
+    position: absolute;
+    top: 390px;
+    left: 175px;
+}
+
+
+
