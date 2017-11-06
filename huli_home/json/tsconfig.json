@@ -1,0 +1,32 @@
+{
+  "list": [
+    {
+      "img":"example_0(2).jpg",
+      "money":"630",
+      "ddNum":"001",
+      "xdTime":"2015-08-08",
+      "shTime":"2012-09-09",
+      "zt":"送货中",
+      "cz":"<div class='look jjBtn'><button type='button'>降价申请</button></div><div class='delete'><button type='button'>删除</button><button type='button'>取消</button></div>"
+    },
+    {
+      "img":"example_0(2).jpg",
+      "money":"630",
+      "ddNum":"002",
+      "xdTime":"2015-08-08",
+      "shTime":"2012-09-09",
+      "zt":"送货中",
+      "cz":"<div class='look jjBtn'><button type='button'>降价申请</button></div><div class='delete'><button type='button'>删除</button><button type='button'>取消</button></div>"
+    },
+    {
+      "img":"example_0(2).jpg",
+      "money":"630",
+      "ddNum":"003",
+      "xdTime":"2015-08-08",
+      "shTime":"2012-09-09",
+      "zt":"送货中",
+      "cz":"<div class='look jjBtn'><button type='button'>降价申请</button></div><div class='delete'><button type='button'>删除</button><button type='button'>取消</button></div>"
+    }
+  ]
+
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/shopping.css">
+</head>
+<body>
+<header></header>
+
+
+<main>
+
+
+    <div class="content">
+        <div class="shopping">
+            <p class="a">我的购物车</p>
+            <table id="dataTable"  border="0" cellspacing="0" cellpadding="0">
+                <thead>
+                <tr>
+                    <td><input class="ckb-all"  type="checkbox" name="ckData" ></td>
+                    <td>商品信息</td>
+                    <td>单价</td>
+                    <td>数量</td>
+                    <td>金额</td>
+                    <td>操作</td>
+                </tr>
+                </thead>
+                <tbody style="font-size: 15px">
+                <tr class="a">
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <img src="img/example_0(3).jpg" width="90px" height="60px" alt="">
+                        <p style="font-size: 10px; margin: 3px">家具名称</p>
+
+                    </td>
+                    <td class="nitPriceOne">￥100</td>
+                    <td>
+                        <div>
+                            <div class="goodsCount one">
+                                <button type="button" class="reduce">-</button>
+                                <input type="text" value="1" class="change">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="amouantOne">￥100</td>
+                    <td> <button class="delect">删除</button> </td>
+                </tr>
+                <tr class="a">
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <img src="img/example_0(3).jpg" width="90px" height="60px" alt="">
+                        <p style="font-size: 10px; margin: 3px">家具名称</p>
+                    </td>
+                    <td class="nitPriceTwo">￥100</td>
+                    <td>
+                        <div>
+                            <div class="goodsCount two">
+                                <button type="button" class="reduce">-</button>
+                                <input type="text" value="1" class="change">
+                                <button type="button" class="plus">+</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="amouantTow">￥100</td>
+                    <td><button class="delect">删除</button></td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="bottom">
+                <input class="ckb-all" type="checkbox"><span >全选</span>
+                <span>已选商品 <span><span class="cont">2</span></span>件 </span>
+                <span><b>合计</b>（不含运费）：</span><span class="price">0</span>
+                <button type="button">去结算</button>
+            </div>
+        </div>
+        <div class="recommend">
+            <p class="a">推荐商品</p>
+            <hr>
+            <div class="box-tow">
+
+            </div>
+        </div>
+    </div>
+
+
+</main>
+
+
+<footer></footer>
+
+
+
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/shopping.js"></script>
+</body>
+</html>

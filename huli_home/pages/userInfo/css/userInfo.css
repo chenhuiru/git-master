@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'iconfont';  /* project id 417784 */
+    src: url('//at.alicdn.com/t/font_417784_icmfhuuoobja714i.eot');
+    src: url('//at.alicdn.com/t/font_417784_icmfhuuoobja714i.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_417784_icmfhuuoobja714i.woff') format('woff'),
+    url('//at.alicdn.com/t/font_417784_icmfhuuoobja714i.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_417784_icmfhuuoobja714i.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: iconfont;
+}
+.content-box form{
+    margin-bottom: 40px;
+}
+.content-box form > div{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333333;
+}
+.content-box form > div > label {
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.content-box input{
+    background: #ffffff;
+    height: 34px;
+    border: 1px solid #cccbca;
+    padding:0 14px;
+    font-size:14px;
+    color: #666;
+}
+/*.content-box form ul {*/
+    /*width: 1000px;*/
+    /*height: 100px;*/
+    /*background: #f7f7f7;*/
+/*}*/
+/*.content-box form > label {*/
+    /*margin-bottom: 4px;*/
+    /**/
+/*}*/
+/*设置提示字体的颜色*/
+.content-box form input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#999;
+    font-size:16px;
+}
+form input[name='username']{
+   width: 130px;
+}
+form input[name='number']{
+    width: 256px;
+}
+/*性别处理*/
+form .sex input{
+    display: none;
+}
+form .sex > div > label {
+    align-items: center;
+    margin-right: 16px;
+}
+form .sex span {
+    width: 14px;
+    height: 14px;
+    background: url("../../../img/checke.png") no-repeat 0 0  /cover;
+    display: inline-block;
+
+    border-radius: 50%;
+    margin-right: 4px;
+}
+form input:checked + span {
+    background: url("../../../img/checke.png") no-repeat 0 -15px  /cover;
+}
+/*生日处理*/
+form div > ul > li > ul {
+    width: 100%;
+    height: 220px;
+    background: #ffffff;
+    border: 1px solid #cccbca;
+    position: absolute;
+    top: 34px;
+    left: -1px;
+    z-index: 1;
+    overflow: scroll;
+}
+form div ul > li > ul li {
+    padding: 10px 14px 10px 14px;
+}
+form div ul > li p {
+    line-height: 34px;
+}
+form div ul > li ul {
+    display: none;
+}
+form div > ul > li{
+    width: 80px;
+    background: #ffffff;
+    height: 34px;
+    border: 1px solid #cccbca;
+    padding:0 14px;
+    font-size:14px;
+    color: #666;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+form div > ul > li ul li:hover{
+    background: #82c353;
+    color: #ffffff;
+}
+.content-box form div > ol > li {
+    width: 188px;
+}
+
+form div > ul > li i {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    background: url("../../../img/slt_0.png") no-repeat 0 0 /cover;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 6px;
+    font-size: 14px;
+    color: #999999;
+}
+form div > ul > li:hover i {
+    background: url("../../../img/slt_0.png") no-repeat 0 -34px /cover;
+}
+form div > ul > li:first-child {
+    width: 120px;
+}
+/*所在地区*/
+.loction input {
+    width: 360px;
+    margin-top: 10px;
+}
+form button {
+    width: 400px;
+    height: 54px;
+    background: #999999;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 60px auto 20px;
+
+}
+/*按钮样式*/
+.commit{
+    cursor: pointer;
+}
+.commit:hover{
+    background: #82c353;
+}
+.content-box form input.showActive{
+     box-shadow: 0 0 4px 2px rgba(130,195,83,.1);
+     border: 1px solid #82c353;
+ }

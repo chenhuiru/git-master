@@ -1,0 +1,55 @@
+{
+  "product":[{"mainImg":"example_0(4).jpg",
+    "detailBigImg":["example_6.jpg","example_7.jpg","example_8.jpg","example_9.jpg","example_10.jpg"],
+    "detailSmallImg":["example_6_thumbnail.jpg","example_7_thumbnail.jpg","example_8_thumbnail.jpg","example_9_thumbnail.jpg","example_10_thumbnail.jpg"],
+    "title":"这是沙发，测试数据，测试一",
+    "beforePrice":"2258",
+    "price":"680",
+    "newPrice":"580",
+    "specification":"三人位",
+    "integral":"6.8",
+    "repertory":"5",
+    "size":"1260*760*560",
+    "texture":"实木/布艺",
+    "color":"亚麻色"
+  },
+    {"mainImg":"example_0(4).jpg",
+    "detailBigImg":["example_6.jpg","example_7.jpg","example_8.jpg","example_9.jpg","example_10.jpg"],
+    "detailSmallImg":["example_6_thumbnail.jpg","example_7_thumbnail.jpg","example_8_thumbnail.jpg","example_9_thumbnail.jpg","example_10_thumbnail.jpg"],
+    "title":"这是床，测试专用，测试二",
+    "beforePrice":"2800",
+    "price":"380",
+    "newPrice":"420",
+    "specification":"1.5M床",
+    "integral":"7.8",
+    "repertory":"10",
+    "size":"1260*760*560",
+    "texture":"实木",
+    "color":"白色"
+  },{"mainImg":"example_0(4).jpg",
+      "detailBigImg":["example_6.jpg","example_7.jpg","example_8.jpg","example_9.jpg","example_10.jpg"],
+      "detailSmallImg":["example_6_thumbnail.jpg","example_7_thumbnail.jpg","example_8_thumbnail.jpg","example_9_thumbnail.jpg","example_10_thumbnail.jpg"],
+      "title":"这是凳子，测试专用，测试三",
+      "beforePrice":"1800",
+      "price":"38",
+      "newPrice":"42",
+      "specification":"1.5M",
+      "integral":"1.8",
+      "repertory":"1",
+      "size":"260*60*60",
+      "texture":"原木",
+      "color":"褐色"
+    }],
+
+  "productSort":{
+    "sofa":["全部","单人位","双人位","三人位","休闲沙发","转角沙发"],
+    "tablesChairs":["全部","餐桌","书桌","电脑桌","梳妆台","餐椅","凳子","休闲椅","户外椅","其他"],
+    "beds":["全部","1.5M床","1.8M床","其他"],
+    "storage":["全部","衣柜","初五柜","电视柜","书柜","鞋柜","床头柜","其他"],
+    "more":["全部","组合产品","日用家居","家居服饰","其他"]
+  },
+  "home": {
+    "banner": ["example_1a.jpg","example_1b.jpg","example_1c.jpg","example_1d.jpg"],
+    "other":["example_0(2).jpg","example_0(2).jpg","example_2.jpg","example_0(2).jpg","example_0(2).jpg","example_0(2).jpg","example_0(2).jpg","example_14.jpg"]
+  }
+}

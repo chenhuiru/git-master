@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="panda">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header></header>
+<main>
+    <div class="register-title flex">
+        <h1>登&nbsp;录</h1>
+        <p>还不是我们的会员？
+            <span class="registerBtn">注册</span>
+            <span class="loginBtn hiddenActive">登录</span>
+        </p>
+    </div>
+        <div class="loginBox">
+            <form name="register" class="login flex">
+                <div>
+                    <label>账号</label>
+                    <input type="text" name="email" placeholder="请输入您的注册邮箱账号" autocomplete="off">
+                </div>
+                <div>
+                    <label>密码</label>
+                    <input type="text" name="password" placeholder="请输入6-18位密码以字母开头" autocomplete="off">
+                </div>
+                <div>
+                    <a style="display: block">忘记密码？</a>
+                    <button type="button" disabled>登&nbsp;录</button>
+                </div>
+            </form>
+        </div>
+      <div class="registerBox hiddenActive">
+        <form name="register" class="register flex">
+            <div>
+                <label>注册邮箱</label>
+                <input type="text" name="email" placeholder="用户注册邮箱账号">
+            </div>
+            <div>
+                <label>登录密码</label>
+                <input type="text" name="password" placeholder="请输入6-18位密码以字母开头">
+            </div>
+            <div>
+                <label>确认密码</label>
+                <input type="text" name="password" placeholder="请再次输入密码">
+            </div>
+            <div>
+                <button type="button" disabled>注&nbsp;册</button>
+            </div>
+        </form>
+      </div>
+     <!--<div class="popupBox flex">-->
+         <!--<p>密码输入错误请重新输入</p>-->
+         <!--<button type="button">确&nbsp;定</button>-->
+     <!--</div>-->
+</main>
+<footer></footer>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>

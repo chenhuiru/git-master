@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'iconfont';  /* project id 417784 */
+    src: url('//at.alicdn.com/t/font_417784_5jx2nfaerclhm2t9.eot');
+    src: url('//at.alicdn.com/t/font_417784_5jx2nfaerclhm2t9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_417784_5jx2nfaerclhm2t9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_417784_5jx2nfaerclhm2t9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_417784_5jx2nfaerclhm2t9.svg#iconfont') format('svg');
+}
+i {
+    font-family: iconfont;
+    font-style: normal;
+}
+
+.sprites{
+    background: url("../img/sprites_0.png") no-repeat;
+}
+main {
+
+    width: 1200px;
+    margin: 100px auto 0;
+    position: relative;
+}
+.register-title,form {
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.register-title h1 {
+    font: 400 32px/140% "微软雅黑";
+    color: #333
+}
+.register-title p {
+
+    margin-top: 10px;
+    font: normal 16px/140% "微软雅黑";
+    color: #888
+}
+.register-title p span {
+    color: #4375ad;
+    cursor: pointer;
+}
+.register-title p span:hover {
+    color: #679bd4;
+}
+
+.hiddenActive{
+  display: none;
+}
+.showActive{
+    box-shadow: 0 0 4px 2px rgba(130,195,83,.1);
+    border: 1px solid #82c353;
+}
+
+form {
+    margin-bottom: 180px;
+    margin-top: 30px;
+}
+/*输入框提示*/
+form div {
+    position: relative;
+}
+form .tips {
+    position: absolute;
+    right: 0; top: 62%;
+    transform: translateX(100%);
+    align-items: center;
+    padding-left: 8px;
+    font-size: 16px;
+    color: #6ed369;
+}
+form i {
+    margin-right: 4px;
+    color: #6ed369;
+    font-size: 26px;
+}
+form span {
+    position: absolute;
+    right: 0; top: 64%;
+    color: red;
+    font-size: 14px;
+    padding-left: 10px;
+    transform: translateX(100%);
+}
+form label {
+    display: block;
+    line-height: 180%;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
+form input{
+    width: 400px;
+    height: 54px;
+    background-color: #fff;
+    border: 1px solid #cccbca;
+    outline: none;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #999;
+}
+/*设置提示字体的颜色*/
+form input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#999;
+    font-size:16px;
+}
+form a {
+    text-align: right;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+    margin-top: 10px;
+}
+form a:hover {
+    color: #679bd4;
+}
+.register div {
+    position: relative;
+}
+.register p{
+    top: 65px;
+    right: -96px;
+    position: absolute;
+    color: #82c353;
+    font-size: 18px;
+}
+form p span {
+    margin-right: 8px;
+    line-height: 18px;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: url("../img/sprites_0.png") no-repeat -237px -500px;
+}
+form button {
+    width: 400px;
+    height: 54px;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    background: #838281;
+    cursor: not-allowed;
+}
+/*弹窗*/
+.popupBox {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+
+    margin: auto;
+    background: #ffffff;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,.3);
+
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.popupBox p {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.popupBox button {
+    cursor: pointer;
+    height: 44px;
+    width: 160px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.popupBox button:hover {
+    background: #82c353;
+}
+
+
+
+
+
+
+
+

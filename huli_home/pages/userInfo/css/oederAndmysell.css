@@ -1,0 +1,129 @@
+@charset "UTF-8";
+table{
+    border-collapse:collapse;
+}
+.table {
+    border: 1px solid #cccbca;
+    font-size: 16px;
+    width: 100%;
+    font-weight:normal;
+    color: #666;
+    margin-top: 20px;
+}
+.table thead{
+}
+.table thead tr{
+    width: 100%;
+    height: 68px;
+    /*display: flex;*/
+
+    background: #ffffff;
+    border-bottom: 1px solid #cccbca;
+
+}
+
+
+.table tbody tr{
+    /*padding: 10px 0;*/
+    height: 58px;
+    border-bottom: 1px solid #cccbca;
+    text-align: center;
+}
+.table tbody tr td{
+    padding: 14px 0;
+    color: #999999;
+    font-size: 14px;
+}
+.table tbody tr td:first-child img{
+    width: 80px;
+    height: 56px;
+}
+.table tbody tr td:last-child{
+    box-sizing: border-box;
+    padding: 0 14px;
+    width: 146px;
+}
+.table tbody tr td:last-child button {
+    cursor: pointer;
+    font-size: 14px;
+    color: #999999;
+    background: none;
+}
+.table tbody tr td:last-child button:hover{
+    color: #077ce0;
+    text-decoration: underline;
+}
+.look {
+    border-bottom: 1px solid #999999;
+}
+.delete,.look {
+    padding: 10px 0;
+}
+.look button:first-child{
+    border-right: 1px solid #999999;
+  padding-right: 10px;
+}
+.look button:last-child{
+    padding-left: 10px;
+}
+.delete button:first-child{
+    border-right: 1px solid #999999;
+    padding-right: 10px;
+}
+.delete button:last-child{
+    padding-left: 10px;
+}
+.table .delete button:first-child:hover{
+    color: red;
+    text-decoration: underline;
+}
+.my-sell{
+    width: 300px;
+    height: 54px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 20px 0 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.my-sell:hover{
+    background: #82c353;
+}
+.jjBtn button:first-child {
+    border-right: none;
+}
+.content-box {
+    width: 1200px;
+}
+.content-box > div{
+    position: relative;
+    right: 0;
+    text-align: right;
+    color: #999;
+    margin: 10px 0 40px 0;
+
+    height: 40px;
+    font-size: 13px;
+}
+
+/*按钮样式*/
+.commit{
+    cursor: pointer;
+}
+.commit:hover{
+    background: #82c353;
+}
+ button.commit {
+    width: 400px;
+    height: 54px;
+    background: #999999;
+    color: #ffffff;
+     border-radius: 4px;
+    font-size: 20px;
+    margin: 60px auto 20px;
+
+}
+
+
+
